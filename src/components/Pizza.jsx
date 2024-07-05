@@ -1,13 +1,13 @@
 export default function Pizza(props) {
-  const { name, ingredients, photoName, price } = props;
+  const { name, ingredients, photoName, price, soldOut } = props;
   return (
-    <div className="pizza">
+    <li className="pizza">
       <img src={photoName} alt={name} />
       <div>
         <h3>{name}</h3>
         <p>{ingredients}</p>
-        <span>Price: $ {price}</span>
+        {soldOut ? "Sold Out" : <span>Price: $ {price}</span>}
       </div>
-    </div>
+    </li>
   );
 }

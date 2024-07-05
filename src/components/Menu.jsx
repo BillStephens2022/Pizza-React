@@ -1,12 +1,16 @@
 import Pizza from "./Pizza";
-
+import { pizzaData } from "../data/data";
 
 export default function Menu() {
+  console.log(pizzaData);
   return (
     <main className="menu">
       <h2 style={{ color: "steelblue", fontSize: "2rem" }}>Our Menu</h2>
-      <Pizza name="Pizza Spinaci" ingredients="Tomato, mozzarella, spinach, and ricotta cheese" photoName="pizzas/spinaci.jpg" price={10.00} />
-      <Pizza name="Pizza Funghi" ingredients="Tomato, mozzarella, red onion, mushrooms" photoName="pizzas/funghi.jpg" price={9.50} />
+      <ul className="pizzas">
+        {pizzaData.map((pizza) => {
+          return <Pizza key={pizza.name} {...pizza} />;
+        })}
+      </ul>
     </main>
   );
 }
