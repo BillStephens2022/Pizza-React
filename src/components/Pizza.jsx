@@ -3,7 +3,7 @@ export default function Pizza() {
         <div>
             <h1>Pizza Spinaci</h1>
             <p>Tomato, mozarella, spinach, and ricotta cheese</p>
-            <img src="starter/pizzas/spinaci.jpg" alt="Pizza Spinaci" />
+            <img src="pizzas/spinaci.jpg" alt="Pizza Spinaci" />
         </div>
     );
 }
