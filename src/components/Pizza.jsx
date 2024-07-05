@@ -6,7 +6,7 @@ export default function Pizza(props) {
       <div>
         <h3>{name}</h3>
         <p>{ingredients}</p>
-        {soldOut ? "Sold Out" : <span>Price: $ {price}</span>}
+        <span>{soldOut ? "SOLD OUT" : `Price: $${price}`}</span>
       </div>
     </li>
   );

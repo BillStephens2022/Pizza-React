@@ -7,12 +7,19 @@ export default function Menu() {
   return (
     <main className="menu">
       <h2 style={{ color: "steelblue", fontSize: "2rem" }}>Our Menu</h2>
+
       {numPizzas > 0 ? (
-        <ul className="pizzas">
-          {pizzaData.map((pizza) => {
-            return <Pizza key={pizza.name} {...pizza} />;
-          })}
-        </ul>
+        <>
+          <p>
+            Authentic Italian cuisine. 6 creative dishes to choose from. All
+            from our stone oven, all organic, all delicious.
+          </p>
+          <ul className="pizzas">
+            {pizzaData.map((pizza) => {
+              return <Pizza key={pizza.name} {...pizza} />;
+            })}
+          </ul>
+        </>
       ) : (
         <p>We're still working on our menu. Please come back later :)</p>
       )}
