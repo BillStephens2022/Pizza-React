@@ -4,6 +4,8 @@
 
   A simple React app from a tutorial displaying a Pizza Menu.  Demonstrates the use of React components, props, conditional rendering, and using map method to easily render data from arrays within a component.
 
+  Deployed URL:  https://billstephens2022.github.io/Pizza-React/
+
   ### App Screenshot
   ![app screenshot](/public/screenshot.png)
   
@@ -25,7 +27,7 @@
   
   ## Usage
   
-  npm start
+  Go to deployed URL: https://billstephens2022.github.io/Pizza-React/
 
   ## License
 This application is covered under the MIT License.
