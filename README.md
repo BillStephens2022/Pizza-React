@@ -2,7 +2,10 @@
 
   ## Description
 
-  A simple React app from a tutorial demonstrating the use of React components, props, conditional rendering"
+  A simple React app from a tutorial demonstrating the use of React components, props, conditional rendering, and using map method to easily render data from arrays within a component"
+
+  ### App Screenshot
+  ![app screenshot](/public/screenshot.png)
   
   ## Table of Contents
   
