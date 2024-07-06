@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Steps-React/static/css/main.ec313818.css",
-    "main.js": "/Steps-React/static/js/main.391cd8e8.js",
-    "index.html": "/Steps-React/index.html",
-    "main.ec313818.css.map": "/Steps-React/static/css/main.ec313818.css.map",
-    "main.391cd8e8.js.map": "/Steps-React/static/js/main.391cd8e8.js.map"
+    "main.css": "/Pizza-React/static/css/main.ec313818.css",
+    "main.js": "/Pizza-React/static/js/main.391cd8e8.js",
+    "index.html": "/Pizza-React/index.html",
+    "main.ec313818.css.map": "/Pizza-React/static/css/main.ec313818.css.map",
+    "main.391cd8e8.js.map": "/Pizza-React/static/js/main.391cd8e8.js.map"
   },
   "entrypoints": [
     "static/css/main.ec313818.css",
