@@ -2,7 +2,7 @@
 
   ## Description
 
-  A simple React app from a tutorial displaying a Pizza Menu.  Demonstrates the use of React components, props, conditional rendering, and using map method to easily render data from arrays within a component"
+  A simple React app from a tutorial displaying a Pizza Menu.  Demonstrates the use of React components, props, conditional rendering, and using map method to easily render data from arrays within a component.
 
   ### App Screenshot
   ![app screenshot](/public/screenshot.png)
